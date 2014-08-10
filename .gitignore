@@ -1,0 +1,6 @@
+.awestruct/
+_site/
+.sass-cache/
+_tmp/
+Gemfile.lock
+README.html
