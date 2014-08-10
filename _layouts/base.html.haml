@@ -11,6 +11,7 @@
   %link{:rel=>'stylesheet', :href=>"#{site.base_url}/stylesheets/app.css"}
   %script(src="#{site.base_url}/javascripts/vendor/custom.modernizr.js")
   %link{:rel=>'author', :type=>'text/plain', :href=>"#{site.base_url}/humans.txt"}
+  %link{:rel=>'icon', :type=>'image/png', :href=>"#{site.base_url}/images/favicon/favicon32px.png" }
 %body.antialiased
   %nav.top-bar
     %ul.title-area
@@ -36,8 +37,6 @@
     .large-6.columns
       %p(style='margin-bottom: .75em')
         &copy; #{site.org} #{Date.today.year}
-        %br
-        Built on Foundation. Baked by Awestruct.
     .large-6.columns
       %ul.inline-list.right
         %li

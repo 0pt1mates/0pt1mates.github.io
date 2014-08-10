@@ -1,4 +1,9 @@
-name: Project Name
-title: Baked with Awestruct
-org: Organization
+name: 0PT1MATES
+title: 0pt1mates web site
+org: 0PT1MATES
 base_url: ''
+profiles:
+  development:
+    base_url: 'http://localhost:4242/'
+  production:
+    base_url: 'http://www.0pt1mates.com/'

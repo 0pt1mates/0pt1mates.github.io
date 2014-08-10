@@ -11,9 +11,26 @@ Web site created using another static web generator.
 * http://rvm.io[RVM]
 * http://awestruct.org[awestruct]
 
+== Setup
+
+[source,bash]
+mkdir web
+cd web
+awestruct -i -f foundation
+
+To support http://asciidoctor.org[asciidoctor] the following line should be uncommented in the Gemfile:
+
+[source,ruby]
+gem 'asciidoctor', '>= 0.1.1'
+
+and install all dependencies
+
+[source,bash]
+bundle install
+
 == Development
 
 [source,bash]
-rake
+awestruct -d
 
 and navigate to http://localhost:4242.
