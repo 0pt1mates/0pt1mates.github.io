@@ -6,4 +6,8 @@ profiles:
   development:
     base_url: 'http://localhost:4242/'
   production:
-    base_url: 'http://www.0pt1mates.com/'
+    base_url: 'http://0pt1mates.github.io'
+    deploy:
+      host: github_pages
+      # use master branch for username.github.io repository
+      branch: master
